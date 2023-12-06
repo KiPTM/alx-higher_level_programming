@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def square_matrix_simple(matrix=[]):
     # Get the dimensions of the matrix
     rows = len(matrix)
