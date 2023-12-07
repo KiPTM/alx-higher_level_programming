@@ -12,4 +12,4 @@ def square_matrix_simple(matrix=[]):
         for j in range(cols):
             squared_matrix[i][j] = matrix[i][j] ** 2
 
-            return squared_matrix
+ return squared_matrix
