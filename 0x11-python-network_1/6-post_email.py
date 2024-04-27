@@ -11,6 +11,8 @@ if __name__ == "__main__":
     email = sys.argv[2]
 
     payload = {'email': email}
-    response = requests.post(url, data=payload)
-
-    print("Your email is:", response.text)
+    try:
+        response = requests.post(url, data=payload)
+        print("Your email is:", response.text)
+    except Exception as e:
+        print(e)
